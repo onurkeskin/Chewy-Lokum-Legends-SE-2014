@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" additionalparam=" -tag param:a:&quot;Param:&quot;&#13;&#10;-tag requires:a:&quot;Requires: &quot;&#13;&#10;-tag modifies:a:&quot;Modifies:&quot;&#13;&#10;-tag ensures:a:&quot;Ensures:&quot;" author="true" classpath="C:\Users\Onur\Desktop\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\Onur\Desktop\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" source="1.6" sourcefiles="src/GameEngine/gameEngine.java" sourcepath="src/GameShape;src/GameEngine;src/Rule;Tests;src/GameBlock;src/lowLevelHelping;src/gameProperties;src/ChewLokumController;src/GraphicsEngine;gameStart" splitindex="true" use="true" version="true"/>
+    </target>
+</project>
